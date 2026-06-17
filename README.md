@@ -1,9 +1,11 @@
 # Jenkins CI Pipeline
 
+Repository:
+https://github.com/gargbhawansh-cyber/Jenkins-Lab
 
 ## Pipeline Script
 
-
+```groovy
 pipeline {
     agent any
 
@@ -43,3 +45,4 @@ pipeline {
         }
     }
 }
+```
